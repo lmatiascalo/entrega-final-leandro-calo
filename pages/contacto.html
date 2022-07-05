@@ -9,42 +9,113 @@
     <title>Contacto</title>
 </head>
 <body class="container">
-    <header>
+  <header class="navbar navbar-expand-lg bg-light container rounded-5 ">
 
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Logo Toty Briossi</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./sobretoty.html">Sobre Toty</a>
-              </li>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Entrena Comigo
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./online.html">Online</a></li>
-                  <li><a class="dropdown-item" href="./presencial.html">Presencial</a></li>
-                  <li><a class="dropdown-item" href="./planis.html">Planificaciones a Medida</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-              
+    
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"> <img id="logo" src="../assets/logos/marca toty (negativo) (2).png" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./pages/sobretoty.html">Sobre Toty</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Entrena Comigo</a>
+
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../pages/online.html">Online</a></li>
+              <li><a class="dropdown-item" href="../pages/presencial.html">Presencial</a></li>
+              <li><a class="dropdown-item" href="../pages/planis.html">Planificaciones a Medida</a></li>
             </ul>
-            
-          </div>
-        </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+        
       </nav>
 
-          <h1>CONTACTO</h1>
-    </header>
+     
+
+    </div>
+
+</header>
+
+    <main class="row justify-content-center">
+
+      <div class="col-12">
+
+        
+        <h1 class="text-center">CONTACTO</h1>
+        <h2 class="text-center mb-5">Si Queres cambiar tu estilo de Vida Completa el fomulario</h1>
+  
+  
+      </div>
+
+      
+
+      <div class="col-6 order-1 align-self-center">
+      <img class="w-100  p-lg-5" src="../assets/Images/WhatsApp Image 2022-07-03 at 12.25.48 PM.jpeg" alt="">
+      </div>
+      
+  
+      <div class="col-6 row order-0 align-self-lg-start">
+        
+        <form class="col-12 g-3" >
+          <div class="col-12 >
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="juan.perez@gmail.com">
+          </div>
+        
+          <div class="col-12">
+            <label for="inputname" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputname" placeholder="Juan Perez">
+          </div>
+          <div class="col-12">
+            <label for="inputmeinteresa" class="form-label">Me Interesa</label>
+            <select id="inputState" class="form-select">
+              <option selected>Elegir una Opcion</option>
+              <option>Online</option>
+              <option>Presencial</option>
+              <option>Planis</option>
+            </select>
+          <div class="col-12">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+        
+          <div class="mb-3 col-12">
+          <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        
+          <div class="col-12">
+          <button type="submit" class="btn btn-primary mb-5 mt-3">Enviar</button>
+          </div>
+        </form>
+
+        
+       
+
+      </div>
+    
+
+      
+
+
+
+
+    </main>
 
     <footer class="container rounded-5 border border-3 mb-2 p-1">
       
