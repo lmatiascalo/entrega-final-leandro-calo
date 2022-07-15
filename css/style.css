@@ -1,11 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.fondo-web {
+  background-color: rgba(244, 240, 218, 0.663);
+}
+
+.fondo-header {
+  background-color: rgba(140, 194, 239, 0.663);
+}
+
+.fondo-banners {
+  background-color: rgba(140, 241, 180, 0.663);
+}
+
+.fondo-art {
+  background-color: rgba(172, 166, 130, 0.663);
+}
+
+main p {
+  background-color: rgba(172, 166, 130, 0.663);
 }
 
 h1 {
   background-color: rgba(140, 241, 180, 0.663);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 iframe {
@@ -20,10 +40,6 @@ iframe {
 #logo {
   width: 100px;
   height: 100px;
-}
-
-footer {
-  background-color: rgba(140, 241, 180, 0.663);
 }
 
 /*# sourceMappingURL=style.css.map */
