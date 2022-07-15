@@ -4,3 +4,22 @@
     height: 100px;
    
 }
+
+@mixin iconos-redes {
+
+    text-align: center;
+    background-color: brown;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.iconos-contacto{
+
+    border-radius: 5px;
+    border-color: red;
+    border-width: 10px;
+
+    @include iconos-redes;
+
+}

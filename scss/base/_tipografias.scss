@@ -5,3 +5,27 @@ iframe{
     width: 100%;
     height: 315px;
 }
+
+.fonts-color-titulos{
+	color: map-get($fonts, "titulos");
+    
+	}
+
+.fonts-color-secciones{
+   
+    color: map-get($fonts ,"secciones" );
+   
+    }
+
+.fonts-color-articulos{
+    
+    color: map-get($fonts ,"articulos" );
+    }
+
+.fondo-banners-index{
+
+    @extend.fondo-banners;
+    color: red;
+}
+
+    

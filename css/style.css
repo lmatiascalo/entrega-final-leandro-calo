@@ -6,7 +6,7 @@
   background-color: rgba(140, 194, 239, 0.663);
 }
 
-.fondo-banners {
+.fondo-banners, .fondo-banners-index {
   background-color: rgba(140, 241, 180, 0.663);
 }
 
@@ -33,6 +33,22 @@ iframe {
   height: 315px;
 }
 
+.fonts-color-titulos {
+  color: blue;
+}
+
+.fonts-color-secciones {
+  color: green;
+}
+
+.fonts-color-articulos {
+  color: black;
+}
+
+.fondo-banners-index {
+  color: red;
+}
+
 #formContacto {
   background-image: url(../assets/Images/WhatsApp\ Image\ 2022-07-03\ at\ 12.25.48\ PM\ \(2\).jpeg);
 }
@@ -40,6 +56,16 @@ iframe {
 #logo {
   width: 100px;
   height: 100px;
+}
+
+.iconos-contacto {
+  border-radius: 5px;
+  border-color: red;
+  border-width: 10px;
+  text-align: center;
+  background-color: brown;
+  margin: auto;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
