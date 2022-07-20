@@ -3,18 +3,20 @@
 }
 
 .fondo-header {
-  background-color: rgba(188, 218, 244, 0.663);
+  background-color: rgba(140, 194, 239, 0.663);
 }
 
 .fondo-banners, .fondo-banners-index {
-  background-color: rgba(188, 218, 244, 0.663);
+  background-color: rgba(140, 241, 180, 0.663);
 }
 
 .fondo-art {
-  background-color: rgba(172, 166, 130, 0.663);
+  background-color: rgba(255, 255, 255, 0.663);
 }
 
-
+main p {
+  background-color: rgba(255, 255, 255, 0.663);
+}
 
 h1 {
   background-color: rgba(140, 241, 180, 0.663);
@@ -47,6 +49,10 @@ iframe {
   color: red;
 }
 
+h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
 #formContacto {
   background-image: url(../assets/Images/WhatsApp\ Image\ 2022-07-03\ at\ 12.25.48\ PM\ \(2\).jpeg);
 }
@@ -64,6 +70,10 @@ iframe {
   background-color: brown;
   margin: auto;
   padding: 0;
+}
+
+footer {
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */
