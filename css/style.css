@@ -3,20 +3,18 @@
 }
 
 .fondo-header {
-  background-color: rgba(140, 194, 239, 0.663);
+  background-color: rgba(188, 218, 244, 0.663);
 }
 
 .fondo-banners, .fondo-banners-index {
-  background-color: rgba(140, 241, 180, 0.663);
+  background-color: rgba(188, 218, 244, 0.663);
 }
 
 .fondo-art {
   background-color: rgba(172, 166, 130, 0.663);
 }
 
-main p {
-  background-color: rgba(172, 166, 130, 0.663);
-}
+
 
 h1 {
   background-color: rgba(140, 241, 180, 0.663);
